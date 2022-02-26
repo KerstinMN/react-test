@@ -8,18 +8,20 @@ import Weather from "./Weather";
 ReactDOM.render(
   <React.StrictMode>
     <div className="container">
-      <Weather />
+      <Weather defaultCity="New York" />
     </div>
-    <p>
-      This project was coded by Kerstin Mayer-Nelkenstock and is{" "}
-      <a
-        href="https://github.com/KerstinMN/react-test"
-        target="_blank"
-        rel="noreferrer"
-      >
-        open-sourced
-      </a>
-    </p>
+    <div className="footer">
+      <p>
+        This project was coded by Kerstin Mayer-Nelkenstock and is{" "}
+        <a
+          href="https://github.com/KerstinMN/react-test"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced
+        </a>
+      </p>
+    </div>
   </React.StrictMode>,
   document.getElementById("root")
 );
