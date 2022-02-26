@@ -1,16 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";
 import Weather from "./Weather";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Weather />
+    <div className="container">
+      <Weather />
+    </div>
     <p>
       This project was coded by Kerstin Mayer-Nelkenstock and is{" "}
-      <a href="https://github.com/KerstinMN/react-test" target="_blank">
+      <a
+        href="https://github.com/KerstinMN/react-test"
+        target="_blank"
+        rel="noreferrer"
+      >
         open-sourced
       </a>
     </p>
