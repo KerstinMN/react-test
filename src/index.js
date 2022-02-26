@@ -8,6 +8,12 @@ import Weather from "./Weather";
 ReactDOM.render(
   <React.StrictMode>
     <Weather />
+    <p>
+      This project was coded by Kerstin Mayer-Nelkenstock and is{" "}
+      <a href="https://github.com/KerstinMN/react-test" target="_blank">
+        open-sourced
+      </a>
+    </p>
   </React.StrictMode>,
   document.getElementById("root")
 );
