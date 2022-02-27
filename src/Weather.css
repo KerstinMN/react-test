@@ -82,3 +82,9 @@ a:hover {
 .balken {
   color: #c8c6c6;
 }
+.WeatherInfo canvas {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+  display: inline-block;
+}
