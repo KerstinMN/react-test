@@ -76,7 +76,7 @@ export default function Weather(props) {
 
         <br />
         <hr />
-        <div class="weather-forecast" id="forecast"></div>
+        <div className="weather-forecast" id="forecast"></div>
       </div>
     );
   } else {
