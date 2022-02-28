@@ -25,7 +25,7 @@ export default function WeatherTemperature(props) {
             {Math.round(props.celsius)}
           </span>
           <span className="units">
-            <a>°C</a> |
+            <a href="/">°C</a> |
             <a
               href="/"
               id="celsius-link"
