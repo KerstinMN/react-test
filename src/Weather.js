@@ -63,18 +63,9 @@ export default function Weather(props) {
                 className="form-control btn btn-primary shadow-sm"
               />
             </div>
-            <div className="col-3">
-              <button
-                className="btn btn-primary shadow-sm w-100"
-                id="current-location-button"
-              >
-                Current location
-              </button>
-            </div>
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-
         <br />
         <WeatherForecast coordinates={weatherData.coordinates} />
         <br />
