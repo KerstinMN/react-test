@@ -13,12 +13,7 @@ export default function WeatherInfo(props) {
             <FormattedDate date={props.data.date} />
           </h4>
           <span id="city">{props.data.city}</span>
-        </div>
-        <div className="col-3">
-          <WeatherTemperature celsius={props.data.temperature} />
-          <div id="description" className="text-capitalize">
-            {props.data.description}
-          </div>
+          <br />
           <ul id="additional-information">
             <li>
               Humidity: <span id="humidity">{props.data.humidity}</span>%
@@ -29,7 +24,15 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
         <div className="col-3">
-          <WeatherIcon code={props.data.icon} size={52} />
+          <WeatherTemperature celsius={props.data.temperature} />
+          <div>
+            <WeatherIcon code={props.data.icon} size={52} />
+          </div>
+        </div>
+        <div className="col-3">
+          <div id="description" className="text-capitalize">
+            {props.data.description}
+          </div>
         </div>
       </div>
     </div>

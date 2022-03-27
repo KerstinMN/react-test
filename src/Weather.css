@@ -40,6 +40,7 @@ h4 {
   list-style: none;
   font-size: 16px;
   line-height: 1;
+  display: inline;
 }
 .units {
   color: #c8c6c6;
