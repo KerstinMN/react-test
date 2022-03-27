@@ -9,11 +9,11 @@ h4 {
   border: 1px solid #c8c6c6;
 }
 
-#search-button,
-#current-location-button {
+#search-button {
   color: #4b6587;
   background-color: #c8c6c6;
   border: 1px solid #c8c6c6;
+  text-align: center;
 }
 
 .weather-app {
